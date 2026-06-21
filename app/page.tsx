@@ -7,9 +7,7 @@ import {
   BrainCircuit,
   Building2,
   Cpu,
-  AtSign,
   GraduationCap,
-  Link,
   Mail,
   Plane,
   Rocket,
@@ -341,8 +339,7 @@ export default function Home() {
             <p className="mt-5 leading-8 text-slate-300">For investors, strategic partners, and future entrepreneurs interested in joining or backing the studio.</p>
             <div className="mt-8 space-y-3 text-slate-300">
               <a href="mailto:investors@hkk-ai-solutions.com" className="flex items-center gap-3 hover:text-cyan-200"><Mail className="h-5 w-5" /> investors@hkk-ai-solutions.com</a>
-              <a href="https://www.linkedin.com" className="flex items-center gap-3 hover:text-cyan-200"><Link className="h-5 w-5" /> LinkedIn</a>
-              <a href="https://x.com" className="flex items-center gap-3 hover:text-cyan-200"><AtSign className="h-5 w-5" /> Twitter / X</a>
+              <p className="text-sm leading-7 text-slate-400">Investor deck, founder introductions, and private materials are shared directly after first contact.</p>
             </div>
           </div>
           <form className="grid gap-4" action="mailto:investors@hkk-ai-solutions.com" method="post" encType="text/plain">
