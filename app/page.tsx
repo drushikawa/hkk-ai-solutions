@@ -84,13 +84,13 @@ const phases = [
 
 const team = [
   {
-    name: 'Kogos',
+    name: 'Kalik',
     title: 'CEO & Venture Architect',
     bio: 'Leads company vision, investor strategy, and the venture studio operating model.',
   },
   {
-    name: 'Kalik',
-    title: 'Chief Projects, Growth & Venture Expansion Officer',
+    name: 'Kogos',
+    title: 'Chief Projects, Growth & Venture Expansion',
     bio: 'Drives the master project portfolio, growth strategy, partnerships, and expansion paths from concept to investable execution.',
   },
   {
