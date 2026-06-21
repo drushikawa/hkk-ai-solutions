@@ -84,11 +84,6 @@ const phases = [
 
 const team = [
   {
-    name: 'Harari',
-    title: 'CTO & AI Systems Lead',
-    bio: 'Owns autonomous agent architecture, product engineering, and scalable technical execution.',
-  },
-  {
     name: 'Kogos',
     title: 'CEO & Venture Architect',
     bio: 'Leads company vision, investor strategy, and the venture studio operating model.',
@@ -97,6 +92,11 @@ const team = [
     name: 'Kalik',
     title: 'Chief Projects, Growth & Venture Expansion Officer',
     bio: 'Drives the master project portfolio, growth strategy, partnerships, and expansion paths from concept to investable execution.',
+  },
+  {
+    name: 'Harari',
+    title: 'CTO & AI Systems Lead',
+    bio: 'Owns autonomous agent architecture, product engineering, and scalable technical execution.',
   },
 ];
 
@@ -262,7 +262,7 @@ export default function Home() {
                 <h3 className="mt-2 text-2xl font-semibold">Profit-center incentives with founder alignment.</h3>
               </div>
               <p className="max-w-3xl leading-7 text-slate-300">
-                Each internal project operates as a profit-center. Founders maintain a baseline of 10% each, while the Project Lead manages the remaining equity distribution to incentivize the team and attract entrepreneurial leadership.
+                Each internal project operates as a profit-center. Founders maintain a baseline of 10–20% each, while the Project Lead manages the remaining equity distribution to incentivize the team and attract entrepreneurial leadership.
               </p>
             </div>
           </motion.div>
