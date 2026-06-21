@@ -5,8 +5,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'HKK AI Solutions | Harari Kogus Kalik',
-  description: 'Investor-facing website for HKK AI Solutions by Harari, Kogus, and Kalik, building autonomous AI agents, SaaS platforms, education, and simulation technologies.',
+  title: 'HKK AI Solutions | Harari Kogos Kalik',
+  description: 'Investor-facing website for HKK AI Solutions by Harari, Kogos, and Kalik, building autonomous AI agents, SaaS platforms, education, and simulation technologies.',
   metadataBase: new URL('https://hkk-ai-solutions.ran-harari.com'),
   openGraph: {
     title: 'HKK AI Solutions',

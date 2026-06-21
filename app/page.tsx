@@ -85,18 +85,18 @@ const phases = [
 const team = [
   {
     name: 'Harari',
-    title: 'CEO & Venture Architect',
-    bio: 'Leads company vision, investor strategy, and the venture studio operating model.',
-  },
-  {
-    name: 'Kogus',
     title: 'CTO & AI Systems Lead',
     bio: 'Owns autonomous agent architecture, product engineering, and scalable technical execution.',
   },
   {
+    name: 'Kogos',
+    title: 'CEO & Venture Architect',
+    bio: 'Leads company vision, investor strategy, and the venture studio operating model.',
+  },
+  {
     name: 'Kalik',
-    title: 'Growth & Partnerships',
-    bio: 'Builds market channels, strategic partnerships, and enterprise adoption paths.',
+    title: 'Chief Projects, Growth & Venture Expansion Officer',
+    bio: 'Drives the master project portfolio, growth strategy, partnerships, and expansion paths from concept to investable execution.',
   },
 ];
 
@@ -163,7 +163,7 @@ export default function Home() {
             </span>
             <span className="leading-tight">
               <span className="block">HKK AI Solutions</span>
-              <span className="block text-[10px] font-medium uppercase tracking-[0.28em] text-cyan-200/70">Harari Kogus Kalik</span>
+              <span className="block text-[10px] font-medium uppercase tracking-[0.28em] text-cyan-200/70">Harari Kogos Kalik</span>
             </span>
           </a>
           <div className="hidden items-center gap-7 text-sm text-slate-300 md:flex">
@@ -177,7 +177,7 @@ export default function Home() {
         <div id="top" className="relative z-10 mx-auto grid max-w-7xl items-center gap-12 pb-20 pt-24 md:grid-cols-[1.08fr_.92fr] md:pt-32">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-violet-300/20 bg-violet-300/10 px-4 py-2 text-sm text-violet-100">
-              <ShieldCheck className="h-4 w-4" /> Harari • Kogus • Kalik | Investor-ready AI solutions engine
+              <ShieldCheck className="h-4 w-4" /> Harari • Kogos • Kalik | Investor-ready AI solutions engine
             </div>
             <h1 className="max-w-5xl text-5xl font-semibold leading-[1.02] tracking-[-0.055em] text-white md:text-7xl lg:text-8xl">
               Building the Future of{' '}
@@ -186,7 +186,7 @@ export default function Home() {
               </span>
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300 md:text-xl">
-              Harari, Kogus, and Kalik’s AI solutions studio developing investable products—from autonomous investment agents to smart SaaS platforms.
+              Harari, Kogos, and Kalik’s AI solutions studio developing investable products—from autonomous investment agents to smart SaaS platforms.
             </p>
             <div className="mt-9 flex flex-col gap-4 sm:flex-row">
               <a href="#portfolio" className="group inline-flex items-center justify-center gap-2 rounded-full bg-cyan-300 px-6 py-3 font-semibold text-slate-950 shadow-glow transition hover:-translate-y-0.5 hover:bg-cyan-200">
@@ -233,7 +233,7 @@ export default function Home() {
       <section id="model" className="relative px-6 py-24 md:px-10">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-950/20 to-transparent" />
         <div className="relative mx-auto max-w-7xl">
-          <SectionHeading eyebrow="Studio Approach" title="An AI solutions studio built to create, validate, and spin out AI companies." body="We combine Harari, Kogus, and Kalik’s founder-led execution with shared AI infrastructure, product velocity, and a repeatable company-building system." />
+          <SectionHeading eyebrow="Studio Approach" title="An AI solutions studio built to create, validate, and spin out AI companies." body="We combine Harari, Kogos, and Kalik’s founder-led execution with shared AI infrastructure, product velocity, and a repeatable company-building system." />
           <div className="grid gap-5 md:grid-cols-3">
             {phases.map((phase, index) => (
               <motion.article
@@ -304,7 +304,7 @@ export default function Home() {
 
       <section id="team" className="px-6 py-24 md:px-10">
         <div className="mx-auto max-w-7xl">
-          <SectionHeading eyebrow="Founding Core" title="Operator-led, AI-native, designed for compounding execution." body="Harari, Kogus, and Kalik combine venture architecture, AI engineering, and market development—then bring in specialized leads as products mature." />
+          <SectionHeading eyebrow="Founding Core" title="Operator-led, AI-native, designed for compounding execution." body="Harari, Kogos, and Kalik combine venture architecture, AI engineering, and market development—then bring in specialized leads as products mature." />
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
             {team.map((person, index) => (
               <motion.article key={person.name} variants={fadeUp} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ duration: 0.65, delay: index * 0.07 }} className="rounded-3xl border border-white/10 bg-white/[0.045] p-6 backdrop-blur-xl">
@@ -363,7 +363,7 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-white/10 px-6 py-8 text-center text-sm text-slate-400 md:px-10">
-        <p>© 2026 HKK AI Solutions. Harari • Kogus • Kalik — building autonomous AI solutions with disciplined venture execution.</p>
+        <p>© 2026 HKK AI Solutions. Harari • Kogos • Kalik — building autonomous AI solutions with disciplined venture execution.</p>
       </footer>
     </main>
   );
